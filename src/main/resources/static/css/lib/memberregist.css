@@ -1,0 +1,34 @@
+#registCard {
+	width: 400px;
+}
+#registForm {
+    display: flex;
+    flex-direction: columns;
+    width: 400px;
+    height: auto;
+}
+ul#labels {
+	display: inline;
+}
+ul#inputs {
+	display: inline;
+}
+ul li {
+	display: flex;
+	margin-bottom: 10px;
+}
+#btn {
+	width: 100%;
+	border: 1px solid #EEE;
+	background-color: #1212FF5B;
+	color: #333;
+	font-weight: bold;
+	font-size: 11pt;
+	cursor: pointer;
+}
+div.errors {
+	background-color: #ff00004a;
+	opacity: 0.8;
+	padding: 10px;
+	color: #333;
+}
